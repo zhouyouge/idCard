@@ -1,0 +1,19 @@
+server:
+  port: 8888
+#swagger配置
+swagger:
+  base-package: com.yoyo.authentication
+  title: center
+  version: 1.0.0
+  exclude-path: /ops/**, /error
+  contact:
+    name: yoyo
+    email: 619296212@qq.com
+rrk:
+  auth:
+    url: 替换自己地址
+    type: idcard
+    secret: 替换自己的key
+
+
+
